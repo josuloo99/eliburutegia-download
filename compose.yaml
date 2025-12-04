@@ -1,0 +1,9 @@
+services:
+  eliburutegia-download:
+    build:
+      context: .
+    image: eliburutegia-download:latest
+    pull_policy: build
+    restart: unless-stopped
+    env_file:
+      - .env

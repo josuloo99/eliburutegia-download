@@ -1,0 +1,3 @@
+[submodule "eliburutegia-api"]
+	path = eliburutegia-api
+	url = https://github.com/josuloo99/eliburutegia-api.git
