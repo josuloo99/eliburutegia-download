@@ -1,4 +1,4 @@
-from eLiburutegiaAPI.eLiburutegia_api import *
+from eLiburutegia_api import *
 
 SEARCH_URL_EUS = 'https://www.euskadi.eus/ac37aELiburutegiaPublicaWar/buscar?locale=eu&idioma=eu&formato=1|200|2|201|7|20'
 DOWNLOAD_PATH = "app/downloads/"
