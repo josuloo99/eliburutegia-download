@@ -23,7 +23,7 @@ def download_all_new_books():
 
    while page < max_pages:
       books, result_count = search_book_basic("", page, input_search_url = SEARCH_URL_EUS)
-      print(f"\rDownloading page {page}/{max_pages}...", end="", flush=True)
+      print(f"\rDownloading page {page}/{max_pages}...")
       download_result = download_page(books)
       if download_result == 1:
          print(f"\nA book already exists. Exiting program.")
